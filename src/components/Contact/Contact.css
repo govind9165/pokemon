@@ -1,0 +1,58 @@
+/* src/components/Contact/Contact.css */
+
+.contact-container {
+  position: relative;
+  background: url('https://wallpaperaccess.com/full/1154342.jpg') no-repeat center center/cover;
+  min-height: 100vh;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 600px;
+  width: 100%;
+  color: white;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.contact-form button {
+  background-color: #ffcb05;
+  color: #2a75bb;
+  font-weight: bold;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ffe066;
+}
+
+.contact-info {
+  margin-top: 20px;
+  font-size: 0.95rem;
+  text-align: center;
+}

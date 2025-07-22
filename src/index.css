@@ -1,3 +1,7 @@
 body {
-    background-color: blanchedalmond;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://wallpapers.com/images/hd/pokemon-charizard-rg5ymg3n0h286459.jpg') no-repeat center center fixed;
+  background-size: cover;
 }

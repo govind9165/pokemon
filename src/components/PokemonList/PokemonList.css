@@ -23,3 +23,15 @@
 .page-controls button:hover {
     background-color:tomato;
 }
+.pokemon-name {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #6d1606;
+  text-shadow: 1px 1px 3px #fff, 2px 2px 8px #ff4b2b;
+  text-align: center;
+  letter-spacing: 0.15rem;
+}
+.pokemon-name:hover {
+  transform: scale(1.05);
+}

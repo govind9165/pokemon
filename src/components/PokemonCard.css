@@ -1,0 +1,30 @@
+/* PokemonCard.css */
+
+.pokemon-card {
+  padding: 1rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.pokemon-card:hover {
+  transform: scale(1.05);
+}
+
+.pokemon-card-img {
+  width: 100px;
+  height: auto;
+}
+
+.pokemon-card-name {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.pokemon-card-type {
+  color: #555;
+  font-size: 0.9rem;
+}
