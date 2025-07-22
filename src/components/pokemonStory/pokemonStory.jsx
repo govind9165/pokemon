@@ -1,4 +1,4 @@
-import './PokemonStory.css';
+import './pokemonStory.css';
 
 
 function PokemonStory() {
