@@ -19,7 +19,7 @@ function Signup() {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/auth/signup', form);
+      await axios.post('https://pokedex-backend-2-03i4.onrender.com/api/auth/signup', form);
       toast.success('Registered successfully!');
       setTimeout(() => navigate('/signin'), 2000);
     } catch (err) {

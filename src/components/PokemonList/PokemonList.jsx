@@ -13,7 +13,7 @@ function PokemonList() {
   // 👇 Fetch custom Pokémon from your backend
   const fetchCustom = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/pokemons"); // ✅ CORRECT URL
+      const res = await axios.get("https://pokedex-backend-2-03i4.onrender.com/api/pokemons"); // ✅ CORRECT URL
       setCustomPokemons(res.data); // store backend Pokémon
     } catch (err) {
       console.error("Failed to fetch custom Pokémon:", err);

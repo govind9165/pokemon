@@ -1,1 +1,1 @@
-export const API_URL = 'http://localhost:5000/api';
+export const API_URL = 'https://pokedex-backend-2-03i4.onrender.com';

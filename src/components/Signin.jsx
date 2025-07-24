@@ -19,7 +19,7 @@ function Signin() {
     }
 
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/signin', form);
+      const res = await axios.post('https://pokedex-backend-2-03i4.onrender.com/api/auth/signin', form);
       localStorage.setItem('token', res.data.token);
       toast.success('Login successful!');
       setTimeout(() => navigate('/pokedex'), 2000);

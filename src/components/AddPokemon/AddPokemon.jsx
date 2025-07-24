@@ -19,7 +19,7 @@ function AddPokemon() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:5000/api/pokemons", {
+      await axios.post("https://pokedex-backend-2-03i4.onrender.com/api/pokemons", {
         ...formData,
         type: formData.type.split(",").map((t) => t.trim()),
         weight: Number(formData.weight), // ✅ Ensure weight is a number

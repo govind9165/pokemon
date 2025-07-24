@@ -21,7 +21,7 @@ function AddPokemonPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:5000/api/pokemons", formData);
+      const response = await axios.post("https://pokedex-backend-2-03i4.onrender.com/api/pokemons", formData);
 
       setMessage("✅ Pokémon added successfully!");
       setFormData({ name: "", type: "", image: "" }); // reset
